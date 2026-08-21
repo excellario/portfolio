@@ -14,7 +14,7 @@ const SECTIONS = [
 
 const MARQUEE = [
   'Flutter', 'Dart', 'BLoC', 'Riverpod', 'GetX', 'go_router', 'Dio', 'get_it',
-  'Clean Architecture', 'Biometrics', 'gRPC', 'Melos', 'Firebase', 'CI/CD',
+  'Clean Architecture', 'Biometrics', 'gRPC', 'Firebase', 'CI/CD',
   'Python', 'n8n',
 ]
 
