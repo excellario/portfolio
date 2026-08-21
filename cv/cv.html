@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Taiwo Praise Oluwatobiloba — CV</title>
+<style>
+  @page { size: A4; margin: 11mm 13mm; }
+  *{box-sizing:border-box;margin:0;padding:0}
+  :root{
+    --ink:#15130f;
+    --body:#33302b;
+    --muted:#6b665e;
+    --rule:#d8d3cb;
+    --accent:#b3410d;
+  }
+  html,body{
+    font-family:Carlito,Calibri,"DejaVu Sans",Arial,sans-serif;
+    color:var(--body);font-size:9.2pt;line-height:1.27;
+    -webkit-font-smoothing:antialiased;
+  }
+  a{color:inherit;text-decoration:none}
+
+  /* ---------- header ---------- */
+  h1{
+    font-size:20pt;line-height:1.05;letter-spacing:.4px;
+    color:var(--ink);font-weight:700;text-transform:uppercase;
+  }
+  .role{
+    font-size:10.4pt;color:var(--accent);font-weight:700;
+    letter-spacing:1.5px;text-transform:uppercase;margin-top:3pt;
+  }
+  .contact{
+    margin-top:5pt;font-size:8.9pt;color:var(--muted);
+  }
+  .contact span{white-space:nowrap}
+  .contact i{color:var(--rule);font-style:normal;margin:0 5pt}
+  .hr{height:1.4pt;background:var(--ink);margin:6.5pt 0 0}
+
+  /* ---------- sections ---------- */
+  section{margin-top:6.6pt}
+  h2{
+    font-size:8.6pt;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;
+    color:var(--ink);padding-bottom:2pt;border-bottom:.6pt solid var(--rule);margin-bottom:4.5pt;
+  }
+  p.sum{text-align:justify}
+  strong{color:var(--ink);font-weight:700}
+
+  /* ---------- entries ---------- */
+  .entry{margin-bottom:4.8pt}
+  .entry:last-child{margin-bottom:0}
+  .er{display:flex;justify-content:space-between;align-items:baseline;gap:10pt}
+  .er h3{font-size:10pt;color:var(--ink);font-weight:700}
+  .tag{
+    font-size:7.4pt;font-weight:700;letter-spacing:.7px;text-transform:uppercase;
+    color:var(--accent);border:.6pt solid var(--accent);border-radius:6pt;
+    padding:.5pt 4pt;margin-left:5pt;vertical-align:1.5pt;
+  }
+  .when{font-size:8.7pt;color:var(--muted);white-space:nowrap;font-weight:700}
+  .org{font-size:9pt;color:var(--body);font-style:italic;margin:.8pt 0 2.4pt}
+  ul{list-style:none}
+  li{position:relative;padding-left:9pt;margin-bottom:1.1pt}
+  li::before{content:'▪';position:absolute;left:0;top:-.5pt;color:var(--accent);font-size:8pt}
+
+  /* ---------- projects ---------- */
+  .proj{margin-bottom:5pt}
+  .proj:last-child{margin-bottom:0}
+  .proj .top{display:flex;justify-content:space-between;align-items:baseline;gap:10pt}
+  .proj h3{font-size:9.7pt;color:var(--ink);font-weight:700}
+  .proj .status{font-size:8.2pt;color:var(--muted);white-space:nowrap}
+  .stack{font-size:8.3pt;color:var(--accent);letter-spacing:.2px;margin:.5pt 0 2pt}
+  .proj p{font-size:9.2pt}
+
+  /* ---------- skills ---------- */
+  .skills{display:grid;grid-template-columns:auto 1fr;gap:1.8pt 9pt;font-size:9.2pt}
+  .skills dt{font-weight:700;color:var(--ink);white-space:nowrap}
+
+  /* ---------- education ---------- */
+  .edu-honours{margin-top:2.5pt}
+  .two{display:grid;grid-template-columns:1fr 1fr;gap:0 16pt}
+</style>
+</head>
+<body>
+
+  <h1>Taiwo Praise Oluwatobiloba</h1>
+  <div class="role">Flutter Mobile Developer</div>
+  <div class="contact">
+    <span>Lagos, Nigeria</span><i>|</i>
+    <span>praisetaiwo24@gmail.com</span><i>|</i>
+    <span>+234 703 292 6808</span><i>|</i>
+    <span>github.com/officialpraise</span><i>|</i>
+    <span>linkedin.com/in/praisetaiwo24</span>
+  </div>
+  <div class="hr"></div>
+
+  <section>
+    <h2>Profile</h2>
+    <p class="sum">
+      Flutter mobile developer with over two years of hands-on Dart experience across internship,
+      graduate-trainee and national service roles. Contributed to three production applications in
+      fintech, rewards and education &mdash; two live on Google Play and the App Store. Comfortable
+      owning a feature end to end: clean architecture, BLoC state management, secure
+      authentication, REST integration and store release.
+    </p>
+  </section>
+
+  <section>
+    <h2>Experience</h2>
+
+    <div class="entry">
+      <div class="er">
+        <h3>Graduate Trainee<span class="tag">Internship</span></h3>
+        <span class="when">Nov 2024 &ndash; Present</span>
+      </div>
+      <div class="org">CashToken Rewards Africa &mdash; Lagos, Nigeria (Hybrid)</div>
+      <ul>
+        <li>Developed the WinBundle mobile client end to end &mdash; clean architecture per feature, BLoC state management, biometric authentication and a silent token-refresh interceptor.</li>
+        <li>Refactored a legacy area of a live production Flutter app for performance, shipping incrementally to avoid regressions for existing users.</li>
+        <li>Shipped new feature modules into live products and owned release cycles &mdash; build flavours, signing and store submission.</li>
+        <li>Carried a shipped app through a backend API migration without breaking the installed version.</li>
+        <li>Built a generative-AI chatbot in Python, and automated recurring workflows with n8n.</li>
+      </ul>
+    </div>
+
+    <div class="entry">
+      <div class="er">
+        <h3>Student Intern<span class="tag">Internship</span></h3>
+        <span class="when">Sep 2023 &ndash; Jan 2024</span>
+      </div>
+      <div class="org">CashToken Rewards Africa &mdash; Lagos, Nigeria (On-site)</div>
+      <ul>
+        <li>Developed and maintained cross-platform Flutter applications for Android and iOS.</li>
+        <li>Integrated REST APIs, payment libraries and local databases; resolved production defects.</li>
+      </ul>
+    </div>
+
+    <div class="entry">
+      <div class="er">
+        <h3>Student Intern<span class="tag">Internship</span></h3>
+        <span class="when">Dec 2022 &ndash; Mar 2023</span>
+      </div>
+      <div class="org">CBC EMEA &mdash; Lagos, Nigeria (On-site)</div>
+      <ul>
+        <li>Contributed to client-facing Flutter and Dart development; took part in code review and debugging.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2>Selected Projects</h2>
+
+    <div class="proj">
+      <div class="top">
+        <h3>WinBundle &mdash; bill payments with a weekly prize draw</h3>
+        <span class="status">Live on Google Play</span>
+      </div>
+      <div class="stack">Flutter &middot; BLoC &middot; go_router &middot; Dio &middot; get_it &middot; local_auth</div>
+      <p>
+        Sole mobile developer. Nine feature modules on clean architecture. Designed a three-state
+        session model (authenticated / locked / unauthenticated) with a 15-minute inactivity lock,
+        holding session identity in encrypted storage without caching replayable credentials.
+      </p>
+    </div>
+
+    <div class="proj">
+      <div class="top">
+        <h3>Learners Forge &mdash; exam-prep platform (JAMB, WAEC, NECO)</h3>
+        <span class="status">Personal project &middot; v1.0.0</span>
+      </div>
+      <div class="stack">Flutter &middot; BLoC &middot; bloc_concurrency &middot; go_router &middot; Dio &middot; bloc_test</div>
+      <p>
+        Sole developer &mdash; specification, architecture, UI and API contract. Twelve feature modules,
+        with paywalled content protected by stacked auth and subscription guards in the router
+        rather than the UI. BLoC unit tests from the first commit.
+      </p>
+    </div>
+
+    <div class="proj">
+      <div class="top">
+        <h3>CashToken Rewards &mdash; multi-market rewards and cashback</h3>
+        <span class="status">Live on Google Play &amp; App Store</span>
+      </div>
+      <div class="stack">Flutter &middot; Provider &middot; SQLite &middot; REST &middot; build flavours</div>
+      <p>
+        One of two developers on an inherited production codebase serving Nigeria and the UK, within
+        a three-environment service layer whose development build runs fully offline against a
+        seeded local database.
+      </p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Technical Skills</h2>
+    <dl class="skills">
+      <dt>Mobile</dt><dd>Flutter, Dart, clean architecture, Android &amp; iOS release builds, platform channels</dd>
+      <dt>State &amp; routing</dt><dd>BLoC, bloc_concurrency, Riverpod, GetX, Provider, go_router, get_it</dd>
+      <dt>Data &amp; networking</dt><dd>Dio, REST, Firebase, gRPC / Protocol Buffers, SQLite</dd>
+      <dt>Security</dt><dd>Biometric authentication, JWT refresh flows, encrypted storage / Keychain, root detection</dd>
+      <dt>Testing &amp; delivery</dt><dd>bloc_test, mocktail, Git, CI/CD, Docker, build flavours &amp; signing, store submission</dd>
+      <dt>Other</dt><dd>Python, n8n workflow automation</dd>
+    </dl>
+  </section>
+
+  <section>
+    <h2>Education &amp; Recognition</h2>
+    <div class="entry">
+      <div class="er">
+        <h3>B.Eng, Information &amp; Communication Technology</h3>
+        <span class="when">2019 &ndash; 2024</span>
+      </div>
+      <div class="org">Air Force Institute of Technology (AFIT), Kaduna, Nigeria</div>
+      <ul class="edu-honours">
+        <li><strong>First Class Honours &mdash; CGPA 4.87 / 5.0.</strong> Best Graduating Student, Department of ICT and Faculty of Ground &amp; Communication Engineering.</li>
+        <li>NIEEE Certificate of Excellence (2025) &middot; NSE Award of Excellence (2024) &middot; AFIT Certificate of Merit (2024)</li>
+      </ul>
+    </div>
+    <div class="entry" style="margin-bottom:0">
+      <ul>
+        <li><strong>NYSC</strong> &mdash; CashToken Rewards Africa, Lagos &middot; Apr 2025 &ndash; Apr 2026 (completed) &nbsp;&middot;&nbsp; <strong>Memberships</strong> &mdash; GMNSE, Nigerian Society of Engineers &middot; Pupil Member, COREN</li>
+      </ul>
+    </div>
+  </section>
+
+</body>
+</html>

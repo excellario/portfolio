@@ -90,9 +90,12 @@ No Tailwind, no styled-components, no animation library. Total production bundle
 ├── index.html                  Document shell + pre-paint theme script
 ├── vite.config.js
 ├── vercel.json                 SPA rewrite so /work/* survives a hard refresh
+├── cv/
+│   ├── cv.html                 CV source — edit here
+│   └── mk.js                   Renders cv.html → PDF via headless Chromium
 ├── public/
 │   ├── shots/                  App screenshots (device-frame content)
-│   └── praise-taiwo-cv.pdf     ← add this; the Download CV button points here
+│   └── praise-taiwo-cv.pdf     Served by the Download CV button
 └── src/
     ├── main.jsx                Entry — mounts BrowserRouter
     ├── App.jsx                 Route table
@@ -235,14 +238,15 @@ deliberately **excluded** because they show a live phone number and email addres
 was a near-empty screen with no informational value. Do not add screenshots of any account
 or profile screen without checking what is visible in them first.
 
-`public/praise-taiwo-cv.pdf` is referenced by the Download CV button and is not committed —
-add it before deploying, or the button will 404.
+`public/praise-taiwo-cv.pdf` is what the Download CV button serves. Its source lives in
+`cv/cv.html`; regenerate the PDF with `node cv/mk.js` after editing, then copy the output
+over `public/praise-taiwo-cv.pdf`. It is a single A4 page with selectable text (not an
+image), so applicant tracking systems can parse it.
 
 ---
 
 ## Roadmap
 
-- [ ] Add `public/praise-taiwo-cv.pdf`
 - [ ] 15–30 second screen recordings per app, looping in the device frames — short flow
       recordings communicate mobile work better than static screenshots
 - [ ] Open-source the Learners Forge repository and link it from its case study

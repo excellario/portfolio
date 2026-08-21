@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Praise Taiwo">
+  <defs>
+    <linearGradient id="p" x1="18" y1="12" x2="46" y2="52" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ff9155"/>
+      <stop offset=".55" stop-color="#ff6a1f"/>
+      <stop offset="1" stop-color="#e8500a"/>
+    </linearGradient>
+    <linearGradient id="tile" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1a1a1f"/>
+      <stop offset="1" stop-color="#0b0b0e"/>
+    </linearGradient>
+  </defs>
+
+  <!-- tile -->
+  <rect width="64" height="64" rx="15" fill="url(#tile)"/>
+  <rect x=".75" y=".75" width="62.5" height="62.5" rx="14.4" fill="none" stroke="#ffffff" stroke-opacity=".10" stroke-width="1.5"/>
+
+  <!-- P — stem + bowl, counter knocked out -->
+  <path fill="url(#p)" fill-rule="evenodd" d="
+    M18.5 14 H32.5 A13 13 0 0 1 32.5 40 H26.5 V50 H18.5 Z
+    M26.5 21 H32.5 A6 6 0 0 1 32.5 33 H26.5 Z"/>
+
+  <!-- brand dot -->
+  <circle cx="41.5" cy="45.5" r="4" fill="#ffb37a"/>
+</svg>

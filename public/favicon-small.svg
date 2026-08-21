@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Praise Taiwo">
+  <!-- Optical variant for 16–24px: larger glyph, wider counter, flat colour, no dot.
+       Gradients and small details turn to mush at favicon size. -->
+  <rect width="64" height="64" rx="13" fill="#111116"/>
+  <path fill="#ff7a33" fill-rule="evenodd" d="
+    M15 8 H32 A17 17 0 0 1 32 42 H27 V56 H15 Z
+    M27 18 H32 A7.5 7.5 0 0 1 32 33 H27 Z"/>
+</svg>
